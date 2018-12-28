@@ -4,6 +4,7 @@
 1. js禁止微信浏览器下拉显示黑底查看网址，不影响内部Scroll
 
 方法一：
+``` javascript
 	var scroll_start=0;//定义滑动时的起点
 	function handler(){//禁止默认滑动函数
 		event.preventDefault();
@@ -26,11 +27,12 @@
 		document.removeEventListener('touchmove', handler, false);
 	});
   
-  
+```   
   
   
   
   方法2：
+  ``` javascript
   // 首先禁止body
     document.body.ontouchmove = function (e) {
           e.preventDefault();
@@ -89,3 +91,4 @@
             ev.preventDefault();
         }
     };
+``` 
