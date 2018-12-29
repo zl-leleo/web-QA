@@ -1,7 +1,7 @@
 
 
 
-1. js禁止微信浏览器下拉显示黑底查看网址，不影响内部Scroll
+1. js禁止微信浏览器下拉显示黑底查看网址，不影响内部Scroll，下面这些方式好像都不是很好，不过记录一下
 
 方法一：
 ``` javascript
@@ -92,3 +92,8 @@
         }
     };
 ``` 
+
+方法三：
+
+http://www.voidcn.com/article/p-sqqvpqfg-bay.html
+
